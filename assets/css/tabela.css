@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f9ff;
+    color: #333;
+    padding: 20px;
+}
+
+.nav-simples {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-simples a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 15px;
+    background: #e3f2fd;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.nav-simples a.ativo {
+    background-color: #0d47a1;
+    color: white;
+}
+
+.container-tabela {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #0d47a1;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.subtitulo {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.tabela-wrapper {
+    overflow-x: auto;
+    margin: 30px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.tabela-precos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.tabela-precos th, 
+.tabela-precos td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e3f2fd;
+}
+
+.tabela-precos th {
+    background-color: #0d47a1;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.tabela-precos tr:nth-child(even) {
+    background-color: #f8fbff;
+}
+
+.tabela-precos tr:hover {
+    background-color: #e3f2fd;
+}
+
+.nome-artista {
+    font-weight: 600;
+    color: #0066cc;
+}
+
+#rodape {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #rodape footer {
+    color: #555;
+  }

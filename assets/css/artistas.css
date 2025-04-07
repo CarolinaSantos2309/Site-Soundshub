@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f9ff;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nav-simples{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.nav-simples a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 18px;
+    background: #e3f2fd;
+    color: #0066cc;
+    font-weight: 600;
+    border: 4px;
+    text-decoration: none;
+}
+.titulo-simples{
+    color: #0d47a1;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 38px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /*pra deixar uma sobrinha no texto*/
+    clear: both;
+}
+.artista-simples{
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.artista-img{
+    width: 120px;/*meche na largura da img e o de baixo mexe na altura*/
+    height: 120px;
+    object-fit: cover; /*ajusta para a imagem prencher o espaço curti*/
+}
+.artista-info{
+    padding: 15px;
+    flex: 1;
+}
+.artista-card img{
+    width: 120px;/*meche na largura da img e o de baixo mexe na altura*/
+    height: 120px;
+    object-fit: cover;/*ajusta para a imagem prencher o espaço curti*/
+}
+.artista-card {
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#rodape {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  #rodape footer {
+    color: #555;
+  }
+
